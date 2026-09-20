@@ -1,4 +1,4 @@
-## Phase 1 — Research & Design
+## Research & Design
 
 * [x] Define project objectives
 * [ ] Research monocopter aerodynamics
@@ -8,7 +8,7 @@
 * [ ] Determine sensor requirements
 * [ ] Define flight-computer architecture
 
-## Phase 2 — Propulsion Testing
+## Propulsion Testing
 
 * [ ] Select BLDC motor
 * [ ] Select ESC
@@ -18,7 +18,7 @@
 * [ ] Test propulsion efficiency
 * [ ] Validate power system
 
-## Phase 3 — Flight Computer
+## Flight Computer
 
 * [ ] Select microcontroller
 * [ ] Design flight-computer PCB
@@ -28,14 +28,30 @@
 * [ ] Develop firmware architecture
 * [ ] Bench-test flight computer
 
-## Phase 4 — Sensors & State Estimation
+## Control-System Development
+
+* [ ] Design control-flap geometry
+* [ ] Select servos
+* [ ] Design servo linkages
+* [ ] Determine maximum flap deflection
+* [ ] Test servo response
+* [ ] Characterize aerodynamic response
+* [ ] Integrate servos with flight computer
+* [ ] Develop servo-control algorithms
+* [ ] Implement closed-loop stabilization
+* [ ] Perform restrained testing
+* [ ] Tune control parameters
+* [ ] Validate hover stabilization
+* [ ] Validate controlled landing
+
+## Sensors & State Estimation
 
 * [ ] Integrate IMU
 * [ ] Validate accelerometer data
 * [ ] Validate gyroscope data
 * [ ] Validate orientation estimation
 
-## Phase 5 — Control System
+## Control System
 
 * [ ] Develop basic motor control
 * [ ] Develop control algorithms
@@ -45,7 +61,7 @@
 * [ ] Develop flight-state machine
 * [ ] Implement failsafes
 
-## Phase 6 — Flight Testing
+## Flight Testing
 
 * [ ] Ground testing
 * [ ] Propulsion-only testing
@@ -57,5 +73,4 @@
 * [ ] Safe landing
 * [ ] Repeatability testing
 
-**The vehicle will not be considered flight-ready simply because the motor spins or the electronics function.**
 
