@@ -80,48 +80,6 @@ This creates a **closed-loop flight-control system**, where the vehicle continuo
 The system will initially be tested with conservative flap deflections before progressively increasing the control authority as the vehicle's response is characterized.
 
 
-# Repository Structure
-
-The repository will gradually be organized approximately as follows:
-
-aerolix-monocopter/
-│
-├── electronics/
-│   ├── flight-computer/
-│   ├── power-system/
-│   └── schematics/
-│
-├── firmware/
-│   ├── drivers/
-│   ├── sensors/
-│   ├── control/
-│   ├── estimation/
-│   └── telemetry/
-│
-├── mechanical/
-│   ├── cad/
-│   ├── models/
-│   └── drawings/
-│
-├── software/
-│   ├── simulation/
-│   ├── ground-station/
-│   └── analysis/
-│
-├── tests/
-│   ├── propulsion/
-│   ├── electronics/
-│   ├── sensors/
-│   └── flight/
-│
-├── documentation/
-│
-└── README.md
-
-The structure may change as the project develops.
----
-
-
 # Current Status
 
 **Project Status:**  **In Development**
